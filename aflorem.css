@@ -49,9 +49,15 @@ body {
     text-decoration: none;
     color: #fff;
     padding-bottom: 3px;
+    border-bottom: 3px solid #101724;
+    -webkit-transition: border-color 0.3s ease;
+       -moz-transition: border-color 0.3s ease;
+         -o-transition: border-color 0.3s ease;
+        -ms-transition: border-color 0.3s ease;
+            transition: border-color 0.3s ease;
 }
 .header a:hover {
-    border-bottom: 3px solid #CD5741;
+    border-color: #CD5741;
 }
 
 /* hero */
@@ -59,6 +65,7 @@ body {
     background-image: url('Hero & Header icons/hero-background.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 .hero .wrapper {
     width: 950px;
@@ -96,6 +103,7 @@ body {
 .headline a button {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
+    font-size: 14px;
     background-color: #1E2731;
     color: #fff;
     border-radius: 2px;
@@ -104,7 +112,6 @@ body {
     margin-top: 15px;
     cursor: pointer;
 }
-
 /* features */
 .features {
     padding-top: 50px;
@@ -177,7 +184,7 @@ body {
 /* footer */
 .footer {
     background-color: #101724;
-    padding-top: 45px;
+    padding-top: 40px;
 }
 .footer .wrapper {
     width: 1300px;
@@ -192,7 +199,20 @@ body {
     font-size: 19px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+.footer .social-icons a {
+    position: relative;
+    top: 0;
+    -webkit-transition: top 0.2s ease-out;
+       -moz-transition: top 0.2s ease-out;
+         -o-transition: top 0.2s ease-out;
+        -ms-transition: top 0.2s ease-out;
+            transition: top 0.2s ease-out;
+}
+.footer .social-icons a:hover {
+    top: -5px;
+}
 .social-icons {
+    margin-top: 5px;
     float: left;
 }
 .backtotop {
