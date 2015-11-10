@@ -1,0 +1,234 @@
+/* aflorem.css */
+
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/* body */
+body {
+    margin: 0;
+}
+
+/* header/nav */
+.header {
+    background-color: #101724;
+    padding: 10px 0;
+}
+.header .wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .logo {
+    width: 200px;
+    color: #fff;
+    padding: 0;
+    float: left;
+    margin-top: 7px;
+}
+.header .logo a {
+    padding: 0;
+}
+.header .nav {
+    width: 360px;
+    color: #fff;
+    float: right;
+}
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.header a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+.header a:hover {
+    border-bottom: 3px solid #CD5741;
+}
+
+/* hero */
+.hero {
+    background-image: url('Hero & Header icons/hero-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero .wrapper {
+    width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 125px 0;
+}
+.image {
+    width: 300px;
+    float: left;
+}
+.image img {
+    border: 7px solid #fff;
+    border-radius: 100%;
+}
+.headline {
+    width: 615px;
+    float: left;
+    padding-left: 35px;
+}
+.headline h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 42px;
+    color: #fff;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+.headline p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+.headline a button {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #1E2731;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* features */
+.features {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.features .wrapper {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.features h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.features img {
+    display: block;
+    margin: 0 auto;
+}
+.features h3, h4, p {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.features h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.features h4 {
+    color: #CD5741;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 13px;
+    position: relative;
+}
+.features hr {
+    width: 15%;
+    background-color: #CD5741;
+    height: 3px;
+    border: none;
+}
+.features p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+.div1 {
+    width: 260px;
+    float: left;
+    padding: 0 70px;
+}
+.div2 {
+    width: 260px;
+    float: left;
+    padding: 0 70px;
+}
+.div3 {
+    width: 260px;
+    float: right;
+    padding: 0 70px;
+}
+.features .title {
+    margin: auto;
+    width: 11%;
+    border-bottom: 3px solid #CD5741;
+    margin-bottom: 80px;
+}
+
+/* footer */
+.footer {
+    background-color: #101724;
+    padding-top: 45px;
+}
+.footer .wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+.footer .social-bar {
+    overflow: hidden;
+}
+.footer .social-bar a {
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.social-icons {
+    float: left;
+}
+.backtotop {
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.backtotop a {
+    text-decoration: none;
+    position: relative;
+}
+.backtotop a::after {
+    content: "↑";
+    font-size: 15px;
+    position: absolute;
+    left: 98px;
+    top: 2px;
+}
+.signature {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+.signature img {
+    margin: 0 10px -2px 10px;
+}
+.footer p {
+    display: inline-block;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter !important;
+    text-align: center;
+}
+.logo {
+    padding: 30px 0 80px 0;
+}
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
