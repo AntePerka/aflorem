@@ -1,6 +1,6 @@
 /* aflorem.css */
 
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600;lang=en');
 
 /* body */
 body {
@@ -13,12 +13,11 @@ body {
     padding: 10px 0;
 }
 .header .wrapper {
-    width: 1400px;
+    width: 1350px;
     margin: 0 auto;
     overflow: hidden;
 }
 .header .logo {
-    width: 200px;
     color: #fff;
     padding: 0;
     float: left;
@@ -27,27 +26,29 @@ body {
 .header .logo a {
     padding: 0;
 }
+.header .logo a img {
+    margin: 0;
+}
 .header .nav {
-    width: 360px;
     color: #fff;
     float: right;
 }
 .header ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .header li {
     display: inline;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 25px;
-    margin-right: 25px;
+    font-weight: 300;
+    margin-left: 50px;
 }
 .header a {
     font-size: 13px;
     text-decoration: none;
     color: #fff;
     padding-bottom: 3px;
-    padding-right: 3px;
 }
 .header a:hover {
     border-bottom: 3px solid #CD5741;
@@ -80,25 +81,26 @@ body {
 }
 .headline h1 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 42px;
+    font-size: 48px;
     color: #fff;
     margin: 15px 0;
-    letter-spacing: 1px;
 }
 .headline p {
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: lighter;
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
+    line-height: 1.3;
 }
 .headline a button {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
     background-color: #1E2731;
     color: #fff;
     border-radius: 2px;
     border: none;
-    padding: 10px 25px;
+    padding: 8px 22px;
     margin-top: 15px;
     cursor: pointer;
 }
@@ -113,10 +115,10 @@ body {
     height: 500px;
     margin: 0 auto;
 }
-.features h1 {
+.features h2 {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 1px;
+    font-size: 34px;
     margin-bottom: 10px;
 }
 .features img {
@@ -134,6 +136,7 @@ body {
 .features h4 {
     color: #CD5741;
     font-style: italic;
+    font-weight: 300;
     margin-top: 0;
     font-size: 13px;
     position: relative;
@@ -186,7 +189,7 @@ body {
 .footer .social-bar a {
     margin: 10px;
     color: #fff;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .social-icons {
@@ -198,15 +201,16 @@ body {
     margin-right: 10px;
 }
 .backtotop a {
+    font-weight: 300;
     text-decoration: none;
     position: relative;
 }
 .backtotop a::after {
     content: "↑";
-    font-size: 15px;
+    font-size: 14px;
     position: absolute;
-    left: 98px;
-    top: 2px;
+    left: 93px;
+    top: 3px;
 }
 .signature {
     margin: auto;
@@ -217,12 +221,12 @@ body {
 .signature img {
     margin: 0 10px -2px 10px;
 }
-.footer p {
+.signature p {
     display: inline-block;
     color: #fff;
     font-size: 23px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter !important;
+    font-weight: 300;
     text-align: center;
 }
 .logo {
