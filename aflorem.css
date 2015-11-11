@@ -118,9 +118,7 @@ body {
         -ms-transition: opacity 0.2s ease;
             transition: opacity 0.2s ease;
 }
-.headline a button:hover {
-    opacity: 1;
-}
+
 /* features */
 .features {
     padding-top: 50px;
