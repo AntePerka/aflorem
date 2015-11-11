@@ -111,6 +111,15 @@ body {
     padding: 8px 22px;
     margin-top: 15px;
     cursor: pointer;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s ease;
+       -moz-transition: opacity 0.2s ease;
+         -o-transition: opacity 0.2s ease;
+        -ms-transition: opacity 0.2s ease;
+            transition: opacity 0.2s ease;
+}
+.headline a button:hover {
+    opacity: 1;
 }
 /* features */
 .features {
